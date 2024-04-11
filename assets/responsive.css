@@ -1,0 +1,241 @@
+/*------start hamburger menu------*/
+.open-menu,
+.close-menu {
+  display: block;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  padding: 20px 0 10px 0;
+}
+nav .menu ul {
+  flex-direction: column;
+  padding-top: 10%;
+  width: 55%;
+  background: #eee;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  z-index: 99;
+  align-items: center;
+}
+#check:checked ~ ul {
+  right: 0;
+}
+
+/*------end hamburger menu------*/
+/*------------------------------------------------*/
+/*------start hero section------*/
+.hero {
+  flex-direction: column;
+}
+.hero .hero-left {
+  width: 100%;
+}
+.hero .hero-left h1 {
+  font-size: 43px;
+}
+.hero .hero-right {
+  width: 100%;
+  order: -1;
+}
+.hero .hero-right img {
+  width: 100%;
+}
+/*------end header section------*/
+/*------------------------------------------------*/
+/*------start social-logo section------*/
+
+/* .social-logo {
+  grid-template-columns: repeat(3, 1fr);
+} */
+
+/*------end social-logo section------*/
+/*------------------------------------------------*/
+/*------start head text global------*/
+.head-text {
+  flex-direction: column;
+  text-align: center;
+}
+.head-text-lft h2 {
+  font-size: 30px;
+}
+.head-text-rht {
+  width: 100%;
+}
+
+/*------end head text global------*/
+/*------------------------------------------------*/
+/*------start service section------*/
+.service-item {
+  grid-template-columns: auto;
+}
+.service-item .left-side h3 {
+  font-size: 20px;
+}
+.service-item .right-side img {
+  width: 126px;
+  height: 129px;
+}
+.service-item .left-side .text {
+  display: none;
+}
+
+/*------end service section------*/
+/*------------------------------------------------*/
+/*------start proposal section------*/
+.proposal {
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
+}
+.proposal .text {
+  width: 100%;
+}
+.proposal .text h3 {
+  font-size: 26px;
+}
+.proposal .text p {
+  font-size: 16px;
+}
+.proposal .image {
+  width: 100%;
+  order: -1;
+}
+.proposal .text a {
+  font-size: 18px;
+}
+
+/*------end proposal section------*/
+/*------------------------------------------------*/
+/*------start case-studies section------*/
+#case-studies {
+  padding: 70px 0;
+}
+.case-stduies-item {
+  flex-direction: column;
+  background: none;
+  margin-top: 0px;
+  padding: 50px 0 0 0;
+}
+.case-stduies-item .vertical {
+  display: none;
+}
+.case-stduies-item .item-text {
+  background: var(--primary-color);
+  padding: 42px 50px;
+  border-radius: 45px;
+  width: 350px;
+}
+.case-stduies-item .item-text p {
+  text-align: left;
+}
+
+/*------end case-studies section------*/
+/*------------------------------------------------*/
+/*------start our-work section------*/
+.our-work .consultation {
+  background: #f3f3f3;
+}
+.our-work .faq-container .faq-content {
+  display: none;
+}
+.our-work .faq-container .faq-head .faq-head-text h2 {
+  font-size: 30px;
+}
+.our-work .faq-container .faq-head .faq-head-text h3 {
+  font-size: 18px;
+}
+.our-work .faq-container .faq-head .faq-head-text {
+  width: 290px;
+}
+.our-work .faq-container .faq-head .faq-icon {
+  width: 30px;
+  height: 30px;
+}
+.our-work .faq-container .faq-head .faq-icon i {
+  font-size: 16px;
+}
+
+/*------end our-work section------*/
+/*------------------------------------------------*/
+/*------start team section------*/
+
+.team .team-item {
+  grid-template-columns: auto;
+}
+.team .team-btn a {
+  width: 100%;
+}
+/*------end team section------*/
+/*------------------------------------------------*/
+/*------start testimonial section------*/
+.testimonial-content {
+  padding: 50px 20px;
+}
+.testimonial-item {
+  flex-direction: column;
+  gap: 80px;
+}
+
+/*------end testimonial section------*/
+/*------------------------------------------------*/
+/*------start contact section------*/
+.contact .contact-item {
+  padding: 0;
+}
+.contact .contact-item .contact-left {
+  width: 100%;
+  padding: 30px 40px;
+}
+.contact .contact-item .contact-rht {
+  display: none;
+}
+
+/*------end contact section------*/
+/*------------------------------------------------*/
+/*------start footer section------*/
+footer .footer-head {
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+footer .footer-head .menu ul {
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+footer .footer-head .menu ul li a {
+  text-decoration: none;
+}
+footer .footer-head .social-link {
+  display: none;
+}
+footer .bottom {
+  margin-top: 40px;
+}
+footer .bottom .icon {
+  display: block;
+  align-items: center;
+  margin: 0 auto; 
+}
+footer .contact-us {
+  flex-direction: column;
+  text-align: center;
+  gap: 40px;
+}
+footer .contact-us .contact-us-rht {
+  flex-direction: column;
+}
+footer .reserved {
+  flex-direction: column;
+}
+footer .reserved p,
+footer .reserved a {
+  font-size: 16px;
+  text-align: center;
+}
+
+/*------end footer section------*/
